@@ -20,7 +20,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data", one_hot=True)
 
 #parameters
-logs_path = '/tensorflow_logs'
+logs_path = './summary'
 learning_rate = 0.1
 
 # Variables
